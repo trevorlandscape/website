@@ -1,0 +1,289 @@
+
+* {
+  box-sizing: border-box;
+}
+
+ .dog{
+  padding: 200px;
+} 
+#hero{
+    background-image: url("Trevor Landscape Images/Large JPG/hero-test-4.jpg");
+    
+    background-color: #cccccc; 
+    height: 600px; 
+    width: 100%;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white;
+    
+} 
+.playfair {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 1.5em;
+  text-shadow: 13px 15px 44px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+    display: flex;
+  flex-direction: column;
+  height: 70%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+
+
+}
+
+h2 {
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.paragraph {
+  font-family: "Playfair Display";
+  font-size: 26px;
+  text-align: center; 
+  color: black;
+  /* width:95% */
+
+}
+
+.services {
+ background-color: lightgrey; 
+ color: black;
+ font-family: "Playfair Display"; 
+ font-size: 22px; 
+ font-weight: 500; 
+ line-height: 32px; 
+ margin: 0 0 -10px; 
+ text-align: center; 
+ padding:10px;
+}
+
+.pop:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.locations{
+  background-color: lightgrey; 
+  color: black;
+  font-family: "Playfair Display"; 
+  font-size: 22px; 
+  font-weight: 500; 
+  line-height: 32px; 
+  /* margin: 0 0 24px;  */
+  text-align: center; 
+  padding:10px;
+}
+
+#CTA{
+  --color: black;
+  
+}
+
+footer{
+  padding-top: 50px;
+  margin: 20px;
+  font-family: "Playfair Display"; 
+  text-align: right;
+  text-decoration: none;
+ 
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+
+button {
+  display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 40%;
+  --b: 3px;   /* border thickness */
+  --s: .45em; /* size of the corner */
+  --color: white;
+  padding: calc(.5em + var(--s)) calc(.9em + var(--s));
+  color: var(--color);
+  --_p: var(--s);
+  background:
+    conic-gradient(from 90deg at var(--b) var(--b),#0000 90deg,var(--color) 0)
+    var(--_p) var(--_p)/calc(100% - var(--b) - 2*var(--_p)) calc(100% - var(--b) - 2*var(--_p));
+  transition: .3s linear, color 0s, background-color 0s;
+  outline: var(--b) solid #0000;
+  outline-offset: .6em;
+  font-size: 16px;
+  border: 0;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+button:hover,
+button:focus-visible{
+  --_p: 0px;
+  outline-color: var(--color);
+  outline-offset: .05em;
+}
+
+button:active {
+  background: var(--color);
+  color: #fff;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  background-color: lightgray;
+}
+
+.column {
+  /* margin-left: 150px; */
+  flex: 20%;
+  max-width: 25%;
+  padding: 0 4px;
+
+ 
+}
+
+.column img {
+  margin-top: 8px; 
+  vertical-align: middle; 
+  width: 100%;
+}
+
+footer{
+  padding-top: 50px;
+  margin: 20px;
+  font-family: "Playfair Display"; 
+  text-align: right;
+  text-decoration: none;
+ 
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*********************************************************************************/
+
+/* TABLET STYLES */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+/*********************************************************************************/
+/* MOBILE STYLES */
+@media screen and (max-width: 600px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  #hero{
+    background-image: url("Trevor Landscape Images/Large JPG/hero-test-4.jpg");
+    background-color: #cccccc; 
+    height: 800px;  
+    background-position: center;  
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    color: white; 
+} 
+
+/* .dog{
+  padding: 150px;
+}  */
+
+.paragraph {
+  font-family: "Playfair Display";
+  font-size: 26px;
+  text-align: center; 
+  color: black;
+  /* width:95% */
+
+}
+
+.services {
+ background-color: lightgrey; 
+ color: black;
+ font-family: "Playfair Display"; 
+ font-size: 22px; 
+ font-weight: 500; 
+ line-height: 32px; 
+ margin: 0 0 -10px; 
+ text-align: center; 
+ padding:10px;
+}
+
+.pop:hover {
+  background-color: #3e8e41;
+  color: white;
+}
+
+.locations{
+  background-color: lightgrey; 
+  color: black;
+  font-family: "Playfair Display"; 
+  font-size: 22px; 
+  font-weight: 500; 
+  line-height: 32px; 
+  /* margin: 0 0 24px;  */
+  text-align: center; 
+  padding: 10px;
+}
+
+
+#CTA{
+  --color: black;
+
+}
+
+footer{
+  padding-top: 50px;
+  margin: 20px;
+  font-family: "Playfair Display"; 
+  text-align: right;
+  text-decoration: none;
+ 
+
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
+.dog{
+  padding: 100px;
+}
+.button{
+  margin-right: 500px;
+}
+}
+
+/* END MOBILE STYLES */
