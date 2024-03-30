@@ -114,6 +114,9 @@ a{
   color: black;
 }
 
+.button{
+  color: white;
+}
 
 button {
   display: flex;
