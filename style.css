@@ -7,7 +7,7 @@
   padding: 200px;
 } 
 #hero{
-    background-image: url("./Images/hero-test-4.jpg");
+    background-image: url("./Images/Kula_Landscape.jpg");
 
     
     background-color: #cccccc; 
@@ -207,7 +207,7 @@ a{
     max-width: 100%;
   }
   #hero{
-    background-image: url("./Images/hero-test-4.jpg");
+    background-image: url("./Images/Kula_Landscape.jpg");
     background-color: #cccccc; 
     height: 800px;  
     background-position: center;  
