@@ -7,7 +7,7 @@
   padding: 200px;
 } 
 #hero{
-    background-image: url("/Images/hero-test-4.jpg");
+    background-image: url("./Images/hero-test-4.jpg");
 
     
     background-color: #cccccc; 
