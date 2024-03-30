@@ -19,6 +19,10 @@
     color: white;
     
 } 
+
+#hero-button{
+  color: white;
+}
 .playfair {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
