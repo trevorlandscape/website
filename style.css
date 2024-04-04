@@ -24,7 +24,9 @@
   color: white;
 }
 
-.button{color: white;}
+.button{
+  color: black;
+}
 .playfair {
   font-family: "Playfair Display", serif;
   font-optical-sizing: auto;
@@ -131,7 +133,7 @@ button {
     margin-left: 40%;
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: black;
+  --color: white;
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
