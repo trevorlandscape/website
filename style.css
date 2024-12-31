@@ -85,10 +85,10 @@ h2 {
  padding:10px;
 }
 
-.pop:hover {
+/* .pop:hover {
   background-color: #3e8e41;
   color: white;
-}
+} */
 
 .locations{
   background-color: lightgrey; 
@@ -250,10 +250,10 @@ a{
  padding:10px;
 }
 
-.pop:hover {
+/* .pop:hover {
   background-color: #3e8e41;
   color: white;
-}
+} */
 
 .locations{
   background-color: lightgrey; 
