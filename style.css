@@ -20,6 +20,10 @@
     
 } 
 
+.hero-button-div{
+  color: red;
+}
+
 #hero-button{
   color: white;
 }
