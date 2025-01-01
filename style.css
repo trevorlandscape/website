@@ -91,6 +91,8 @@ h2 {
 } */
 
 .locations{
+  display: flex;
+  flex-direction: row;
   background-color: lightgrey; 
   color: black;
   font-family: "Playfair Display"; 
