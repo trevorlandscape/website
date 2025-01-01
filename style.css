@@ -139,7 +139,7 @@ button {
     margin-left: 40%;
   --b: 3px;   /* border thickness */
   --s: .45em; /* size of the corner */
-  --color: white;
+  --color: red;
   padding: calc(.5em + var(--s)) calc(.9em + var(--s));
   color: var(--color);
   --_p: var(--s);
