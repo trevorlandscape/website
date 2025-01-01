@@ -24,10 +24,6 @@
   color: white;
 }
 
-button {
-  margin-left: 28%;
-}
-
 .button{
   color: black;
 }
@@ -310,9 +306,10 @@ a{
 .dog{
   padding: 100px;
 }
-.button{
+
+  button{
 /*   margin-right: 500px; */
-  margin-left: 26%;
+  margin-left: 28%;
 }
 }
 
