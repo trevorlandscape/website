@@ -168,6 +168,8 @@ button:active {
   color: #fff;
 }
 
+.CTA_dark{color: white;}
+
 .row {
   display: flex;
   flex-wrap: wrap;
