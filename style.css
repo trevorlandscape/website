@@ -273,6 +273,12 @@ a{
   padding: 10px;
 }
 
+  .locations-row{
+   display: flex;
+  flex-direction: row;
+ justify-content: space-between;
+}
+
 
 #CTA{
   --color: black;
