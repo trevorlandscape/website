@@ -105,6 +105,7 @@ h2 {
 .locations-row{
    display: flex;
   flex-direction: row;
+  color: red;
 }
 
 #CTA{
