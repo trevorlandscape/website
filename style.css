@@ -24,6 +24,10 @@
   color: white;
 }
 
+button {
+  margin-left: 28%;
+}
+
 .button{
   color: black;
 }
