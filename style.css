@@ -28,7 +28,9 @@
 #hero-button{
   color: white;
 }
-
+#contact_me_button{
+  background-color: red;
+}
 .button{
   color: black;
 }
