@@ -126,8 +126,10 @@ footer{
   font-family: "Playfair Display"; 
   text-align: center;
   text-decoration: none;
- 
+}
 
+#footer-nav{
+  background-color: red;
 }
 
 a{
