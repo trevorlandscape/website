@@ -129,7 +129,11 @@ footer{
 }
 
 #footer-nav{
-  background-color: red;
+  margin-left: 20%;
+}
+
+class="footer-nav-link"{
+  padding: 20px;
 }
 
 a{
